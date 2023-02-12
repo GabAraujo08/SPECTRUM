@@ -1,0 +1,223 @@
+@font-face {
+    font-family: 'AudiowideRegular';
+    src: url('../fonts/Audiowide-Regular.ttf');
+}
+
+@font-face{
+    font-family: 'Poppins';
+    src: url('../fonts/Poppins-Medium.ttf');
+}
+@font-face{
+    font-family: 'Allerta';
+    src: url('../fonts/Allerta-Regular.ttf');
+}
+
+body{
+    background-color: #eeeeee;
+}
+
+     /*NAVBAR*/
+.bg-custom{
+    background-color: #eeeeee;
+}
+
+.logo{
+    position: absolute;
+    height: 65px;
+    width: 65px;
+    left: 95.33px;
+    top: 50px;
+
+}
+
+.logo-name{
+    font-family: 'AudiowideRegular';
+    position: absolute;
+    width: 194px;
+    height: 38px;
+    left: 170px;
+    top: 65px;
+    color: #493A8B;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 38px;
+}
+
+/*ITENS NAVBAR*/
+
+/*HAMBURGUER*/
+
+
+nav .nav-link{
+    color: #493A8B;
+    line-height: 27px;
+}
+nav .nav-link:hover{
+    color: #9056E8;
+    line-height: 27px;
+}
+#navbarSupportedContent{
+    margin-right: 50px;
+    margin-top: 50px;
+    
+}
+.nav-item{
+    margin-left: 50px;
+    font-family: 'Poppins';
+    font-size: 18px;
+    font-weight: 700;
+   
+}
+
+/*BODY*/
+
+
+main .titles{
+    position: absolute;
+    width: 30rem;
+    height: 11.75rem;
+    left: 6rem;
+    top: 15rem;
+    
+    
+}
+
+main .titles h1{
+    font-weight: 700;
+    font-size: 5rem;
+    line-height: 117%;
+    font-family: 'Poppins';
+    font-style: normal;
+    margin: 0;
+}
+main .captions{
+    position: absolute;
+    width: 32.5rem;
+    height: 4.5rem;
+    left: 5.6rem;
+    top: 29.3rem;
+}
+main .captions p{
+    font-family: 'Allerta';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.5rem;
+    line-height: 148.33%;
+    margin: 0;
+    color: #1A1462;
+}
+main{
+    display: flex;
+}
+main .left-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+main .right-content{
+
+}
+.custom-button {
+    background-color: #493A8B;
+    border-radius: 30px;
+    height: 63px;
+    width: 212px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-size: 23px;
+    color: #fff;
+    transition: all 0.3s ease;
+    margin-top: 25px;
+    margin-left: 0;
+  }
+  
+  .custom-button:hover {
+    background-color: #9056E8;
+    cursor: pointer;
+  }
+ 
+  main .images-home{
+    position: relative;
+
+  }
+  .piramide {
+    animation: float 3s ease-in-out infinite;
+  }
+  
+  @keyframes float {
+    0% {
+      transform: translatey(0px);
+    }
+    50% {
+      transform: translatey(-20px);
+    }
+    100% {
+      transform: translatey(0px);
+    }
+  }
+  .piramide-fina {
+    animation: float 3s ease-in-out infinite;
+  }
+  
+  @keyframes float {
+    0% {
+      transform: translatey(0px);
+    }
+    50% {
+      transform: translatey(-20px);
+    }
+    100% {
+      transform: translatey(0px);
+    }
+  }
+
+
+/*MEDIA QUERYS --- RESPONSIVIDADE*/
+
+  @media screen and (max-width: 1225px) {
+    .right-content {
+      display: none;
+    }
+  }
+
+  @media screen and (max-width: 1225px) {
+    /* Estilos quando a tela é menor ou igual a 767px */
+    main .left-content {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        
+    }
+  }
+
+ 
+  
+      @media (max-width: 1145px){
+        .identity {
+     display: none !important;
+     
+}nav #nav-container{
+    justify-content: center;
+    align-items: center;
+}
+      }
+      @media (max-width: 992px){
+        .toggle{
+    
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 50px;
+            width: 80vw;
+        
+    }.navigation{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+      }
+  
