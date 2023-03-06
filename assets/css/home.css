@@ -20,7 +20,7 @@ html {
 
 body{
     background-color: #eeeeee;
-    background-image: url('../img/caracol-services.png');
+    /*background-image: url('../img/caracol-services.png');*/
     background-repeat: no-repeat;
     background-size: cover;
     background-position-x: center;
@@ -180,10 +180,11 @@ main .left-content{
     align-items: center;
 
 }
-
+/*
 main .right-content{
 
-}
+}*/
+
 .custom-button {
     background-color: #493A8B;
     border-radius: 30px;
@@ -318,20 +319,18 @@ main .right-content{
 
 
   /*SERVICES*/
-  .services{
+ /* .services{
     display: flex;
     flex-direction: column;
-    width: 100vw;
-    
-    
+    width: 100vw; 
   }
+ 
   .services .design-icon{
     width: 100px;
     height: 100px;
-
   }
-
-  .services .design-box{
+ 
+ / .services .design-box{
       width: 435px;
       height: 445px;
       top: 97rem;
@@ -340,33 +339,73 @@ main .right-content{
       display: flex;
   
   }
+  */
+  /*
   .title-services-container{
     width: 100%;
     display: flex;
     justify-content: center;
     margin-bottom: -130px;
   }
-  .title-services-container h1{
+ 
+
+.services{
+  background-image: url('../img/caracol-servicos.png');
+}
+
+background-image{
+  filter: blur(80px);
+}
+ */
+
+ .fundo{
+  position: absolute;
+ }
+
+.title-services-container h1 {
     color: #9056E8;
     font-weight: bold;
     font-size: 32px;
     font-family: 'Poppins';
-  }
+    justify-content: center;
+    display: flex;
+}
+
+.fundo{
+  filter: blur(280px);
+}
+
   .triangulos-services{
     display: flex;
-    width: 100%;
     justify-content: center;
+    position: absolute;
+    align-items: center;
+    margin-left: 570px;
   }
+  .triangulos-services > .img1 {
+    margin: 0 -368px;
+}
+.triangulos-services .img2 {
+  margin-top: 153px;
+  margin-bottom: -157px;
+}
+
+.triangulos-services > .img3 {
+  margin: 0 -368px;
+}
+
+  /*
   .services-triangulo1-baixo, .services-triangulo2-cima, .services-triangulo3-baixo{
     height: 31.25rem;
     width: 31.5rem;
   }
-
-
+*/
+/*
   .services .triangulos-services{
     display: flex;
     flex-direction: row;
   }
+*/
 
 /* .left-arrow{
   background-image: url('https://img.icons8.com/clouds/1x/long-arrow-left.png');
@@ -381,8 +420,7 @@ main .right-content{
 /*EQUIPE*/
 
 .equipe{
- 
-  margin-top: 150px;
+  margin-top: 1000px;
   margin-left: 200px;
 }
 .equipe .title-equipe h1{
@@ -398,9 +436,10 @@ color: #9056E8;
 .equipe .title-equipe {
   margin-right: 32px;
 }
+/* 
 .equipe .equipe-line-1 , .equipe-line-2{
-  /* margin-left: 63px; */
-}
+  margin-left: 63px; 
+}*/
 
 .equipe .card-equipe {
   width: 14.875rem;
